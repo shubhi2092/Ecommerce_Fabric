@@ -1,0 +1,6 @@
+payment_id,customer_id,payment_date,payment_method,payment_status,amount
+P001,1001,2022-07-16,Credit Card,SUCCESS,120.5
+P002,1002,2022/07/17,creditcard,Failed,
+P003,1003,17-07-2022,PayPal,Success,250.0
+P004,1004,20220718,cash,success,-15.0
+P005,1005,n/a,UPI,,145.0

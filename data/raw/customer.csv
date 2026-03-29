@@ -1,0 +1,6 @@
+customer_id,name,EMAIL,gender,dob,location
+1001,john DOE,John.DOE@Gmail.Com,male,1990/05/12,new york
+1002,sara kHAN,SARA.khan@GMAIL.com,F,12-06-1988,MUMBAI
+1003,,tom@outlook.com,Male,,san francisco
+1004,Anil Sharma,ANIL.sharma@yahoo.in,MALE,1989-03-17,bangalore
+1005,Priya R,priya.r@hotmail.com,f,1993-11-23,delhi

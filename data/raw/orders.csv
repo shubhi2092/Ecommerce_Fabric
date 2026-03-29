@@ -1,0 +1,6 @@
+order_id,customer_id,order_date,amount,status
+2001,1001,2022/07/15,120.5,Complete
+2002,1002,15-07-2022,,Pending
+2003,1003,2022-07-18,250.0,shipped
+2004,1004,20220719,0.0,complete
+2005,1005,2022-07-20,-45.0,failed

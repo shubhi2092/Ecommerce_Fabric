@@ -1,0 +1,6 @@
+ticket_id,customer_id,issue_type,ticket_date,resolution_status
+T001,1001,Payment Issue,2022-07-19,Closed
+T004,1004,Login Problem,2022-07-20,
+T006,1006,Refund Request,2022-07-21,Pending
+T009,1009,Login Issue,2022-07-23,Pending
+T010,1010,Support Needed,2022-07-23,

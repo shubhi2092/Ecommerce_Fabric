@@ -1,0 +1,6 @@
+ticket_id,customer_id,issue_type,ticket_date,resolution_status
+T001,1001,Payment Issue,2022-07-19,closed
+T002,1002,delivery delay,19-07-2022,pending
+T003,1003,PAYMENT ISSUE,20220720,Closed
+T004,1004,login problem,2022/07/20,
+T005,1005,NA,n/a,resolved

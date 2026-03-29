@@ -1,0 +1,6 @@
+session_id,customer_id,page_viewed,session_time,device_type
+S001,1001,/Home,2022-07-18,android
+S002,1002,/products/shoes,18-07-2022,IOS
+S003,1003,/PRODUCTS/BAGS,20220719,Windows
+S004,1004,/cart,2022-07-19,linux
+S005,1005,/checkout,2022/07/20,android
