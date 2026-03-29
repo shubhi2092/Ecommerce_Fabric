@@ -1,0 +1,118 @@
+value
+
+Table: customers
+root
+ |-- customer_id: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- EMAIL: string (nullable = true)
+ |-- gender: string (nullable = true)
+ |-- dob: string (nullable = true)
+ |-- location: string (nullable = true)
+
+
+Table: gold_customer360
+root
+ |-- customer_id: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- email: string (nullable = true)
+ |-- gender: string (nullable = true)
+ |-- dob: date (nullable = true)
+ |-- location: string (nullable = true)
+ |-- order_id: string (nullable = true)
+ |-- order_date: date (nullable = true)
+ |-- order_amount: double (nullable = true)
+ |-- order_status: string (nullable = true)
+ |-- payment_method: string (nullable = true)
+ |-- payment_status: string (nullable = true)
+ |-- payment_amount: double (nullable = true)
+ |-- ticket_id: string (nullable = true)
+ |-- issue_type: string (nullable = true)
+ |-- ticket_date: date (nullable = true)
+ |-- resolution_status: string (nullable = true)
+ |-- page_viewed: string (nullable = true)
+ |-- device_type: string (nullable = true)
+ |-- session_time: date (nullable = true)
+
+
+Table: orders
+root
+ |-- order_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- order_date: string (nullable = true)
+ |-- amount: string (nullable = true)
+ |-- status: string (nullable = true)
+
+
+Table: payments
+root
+ |-- payment_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- payment_date: string (nullable = true)
+ |-- payment_method: string (nullable = true)
+ |-- payment_status: string (nullable = true)
+ |-- amount: string (nullable = true)
+
+
+Table: silver_customer
+root
+ |-- customer_id: string (nullable = true)
+ |-- name: string (nullable = true)
+ |-- EMAIL: string (nullable = true)
+ |-- gender: string (nullable = true)
+ |-- dob: date (nullable = true)
+ |-- location: string (nullable = true)
+
+
+Table: silver_order
+root
+ |-- order_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- order_date: date (nullable = true)
+ |-- amount: double (nullable = true)
+ |-- status: string (nullable = true)
+
+
+Table: silver_payments
+root
+ |-- payment_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- payment_date: date (nullable = true)
+ |-- payment_method: string (nullable = true)
+ |-- payment_status: string (nullable = true)
+ |-- amount: double (nullable = true)
+
+
+Table: silver_support
+root
+ |-- ticket_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- issue_type: string (nullable = true)
+ |-- ticket_date: date (nullable = true)
+ |-- resolution_status: string (nullable = true)
+
+
+Table: silver_web
+root
+ |-- session_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- page_viewed: string (nullable = true)
+ |-- session_time: date (nullable = true)
+ |-- device_type: string (nullable = true)
+
+
+Table: support
+root
+ |-- ticket_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- issue_type: string (nullable = true)
+ |-- ticket_date: string (nullable = true)
+ |-- resolution_status: string (nullable = true)
+
+
+Table: web
+root
+ |-- session_id: string (nullable = true)
+ |-- customer_id: string (nullable = true)
+ |-- page_viewed: string (nullable = true)
+ |-- session_time: string (nullable = true)
+ |-- device_type: string (nullable = true)
